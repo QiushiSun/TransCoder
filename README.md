@@ -1,6 +1,6 @@
 # TransCoder
 
-Code for EMNLP2023 Submission
+Code for LREC-COLING 2024 Submission
 
 ## Environment & Preparing
 
@@ -45,7 +45,7 @@ bash run.sh $MODEL_NAME $TASK $SUB_TASK
 bash run_few_shot.sh $MODEL_NAME $TASK $SUB_TASK
 ```
 
-  `MODEL_NAME` can be any one of `["roberta", "codebert", "graphcodebert", "unixcoder","t5","codet5","bart","plbart"]`.
+  `MODEL_NAME` can be any one of `["roberta", "codebert", "graphcodebert", "unixcoder","t5","codet5","codet5+", "bart","plbart"]`.
 
   `TASK` can be any one of `['summarize', 'translate', 'refine', 'generate', 'defect', 'clone']`. 
 

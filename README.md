@@ -1,5 +1,10 @@
 # TransCoder
 
+
+[![arXiv](https://img.shields.io/badge/arXiv-2306.07285-b31b1b.svg)](https://arxiv.org/abs/2306.07285) 
+![License](https://img.shields.io/badge/License-MIT-blue)
+
+
 Code for LREC-COLING 2024 Submission
 
 ## Environment & Preparing
@@ -67,3 +72,21 @@ bash run_transcoder.sh $MODEL_NAME $TASK
 ```
 
 `TASK` can be any one of `['cls2translate','translate2cls','cls2summarize','summarize2cls','translate2summarize','summarize2translate','cross2java','cross2php','cross2ruby','cross2python','cross2go','cross2javascript']`
+
+##  Acknowledgement
+Codes are adapted from [nchen909/TransCoder](https://github.com/nchen909/TransCoder)
+
+## Citation
+
+Please consider citing us if you find this repository useful.👇
+
+```bibtex
+@misc{sun2023transcoder,
+      title         = {TransCoder: Towards Unified Transferable Code Representation Learning Inspired by Human Skills}, 
+      author        = {Qiushi Sun and Nuo Chen and Jianing Wang and Xiang Li and Ming Gao},
+      year          = {2023},
+      eprint        = {2306.07285},
+      archivePrefix = {arXiv},
+      primaryClass  = {cs.SE}
+}
+```
